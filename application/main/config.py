@@ -51,7 +51,7 @@ class GlobalConfig(BaseSettings):
     # logging configuration file
     LOG_CONFIG_FILENAME: Optional[str] = Field(None, env="LOG_CONFIG_FILENAME")
 
-    DB_SQL_STRING = Optional[str] = None
+    SQL_STRING: Optional[str] = None
 
     class Config:
         """Loads the dotenv file."""
