@@ -1,0 +1,12 @@
+fastapi
+ipykernel
+ipython
+joblib
+motor
+nest-asyncio
+pytest
+pytest-asyncio
+python-dateutil
+python-dotenv==0.21.0
+qdrant-client
+requests
